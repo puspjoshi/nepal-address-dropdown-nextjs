@@ -25,7 +25,11 @@ Please ensure that any missing addresses are added, and then push your commit to
 
 ## Getting Started
 
-First, clone the repository:
+1) First, clone the repository:
+2) Import the database mysql file name nepal_address.sql into your database.
+3) create .env file in root dir and replace content with env.local file content.
+4) config/Database.php please correct all the database credienatials
+5) Finally, run below commands
 
 ```bash
 npm install
@@ -38,3 +42,4 @@ pnpm dev
 # or
 bun dev
 ```
+
